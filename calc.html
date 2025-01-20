@@ -21,7 +21,33 @@
 
 		<textarea id="resultArea" readonly rows="1" cols="21"></textarea>
 		<div id="opac"></div>
+		<div class="angle-selector">
+			<label class="radio-inline">
+				<input type="radio" name="angle-unit" value="DEG" checked> DEG
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="angle-unit" value="RAD"> RAD
+			</label>
+		</div>
 		<table>
+			<tr class="memory-functions">
+				<td><button id="mc" class="btn btn-info">MC</button></td>
+				<td><button id="mr" class="btn btn-info">MR</button></td>
+				<td><button id="mplus" class="btn btn-info">M+</button></td>
+				<td><button id="mminus" class="btn btn-info">M-</button></td>
+			</tr>
+			<tr class="scientific-functions">
+				<td><button id="sin" class="btn btn-warning">sin</button></td>
+				<td><button id="cos" class="btn btn-warning">cos</button></td>
+				<td><button id="tan" class="btn btn-warning">tan</button></td>
+				<td><button id="log" class="btn btn-warning">log</button></td>
+			</tr>
+			<tr class="scientific-functions">
+				<td><button id="sqrt" class="btn btn-warning">&radic;</button></td>
+				<td><button id="pow" class="btn btn-warning">x<sup>y</sup></button></td>
+				<td><button id="pi" class="btn btn-warning">&pi;</button></td>
+				<td><button id="e" class="btn btn-warning">e</button></td>
+			</tr>
 			<tr>
 				<td></td>
 				<td></td>
