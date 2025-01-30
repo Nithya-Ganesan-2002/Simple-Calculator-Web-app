@@ -1,25 +1,104 @@
-table{
-    margin-left:auto; 
-    margin-right:auto;
+/* Calculator Container Styles */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-textarea{
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 4px;
+    border-collapse: separate;
+}
+
+/* Display Area Styles */
+textarea {
     display: block;
     margin-bottom: 8px;
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
- }
+    width: 100%;
+    max-width: 360px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+}
 
- button{
-    height: 40px;
-    width: 40px;
- }
- #opac{
+/* Button Styles */
+button {
+    height: 45px;
+    width: 45px;
+    font-size: 16px;
+    margin: 2px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+/* Scientific Function Buttons */
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #148a9c;
+    font-size: 14px;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+/* Memory Function Buttons */
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #e0a800;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+/* Number Buttons */
+.btn-default {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+}
+
+.btn-default:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+/* Clear and Delete Buttons */
+.btn-danger {
+    font-weight: bold;
+}
+
+#opac {
     opacity: 0.25;
-    /* margin-left: 32%; */
-    /* margin-bottom: 3px; */
     height: 19px;
     width: 87px;
-    margin: auto;
+    margin: 0 auto 8px auto;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .container {
+        padding: 10px;
+    }
+    
+    button {
+        height: 40px;
+        width: 40px;
+        font-size: 14px;
+    }
+    
+    textarea {
+        max-width: 300px;
+        height: 45px;
+        font-size: 18px;
+    }
 }
