@@ -1,0 +1,31 @@
+{
+  "is_source_file": true,
+  "format": "Python",
+  "description": "This file defines the data models for a Django web application, specifically for a simple calculator application.",
+  "external_files": [],
+  "external_methods": [],
+  "published": [],
+  "classes": [],
+  "methods": [],
+  "calls": [],
+  "search-terms": [
+    "Django",
+    "models",
+    "calculator",
+    "Simple Calculator"
+  ],
+  "state": 2,
+  "file_id": 17,
+  "knowledge_revision": 40,
+  "git_revision": "bb9bef93cabcdf3f11f4488c7ef39eda456f33ec",
+  "ctags": [],
+  "filename": "/home/kavia/workspace/code-maintenance-job-a41f3826-949e-4fe5-8f50-c1df5ef4adc8/Simple-Calculator-Web-app/Django Calculator App/calc/models.py",
+  "hash": "8c4eb991c6dca757bdd77f539092e29b",
+  "format-version": 4,
+  "code-base-name": "b9748nd",
+  "revision_history": [
+    {
+      "40": "bb9bef93cabcdf3f11f4488c7ef39eda456f33ec"
+    }
+  ]
+}

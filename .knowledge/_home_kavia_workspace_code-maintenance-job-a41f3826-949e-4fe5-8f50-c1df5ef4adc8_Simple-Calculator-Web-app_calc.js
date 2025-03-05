@@ -1,0 +1,133 @@
+{
+  "is_source_file": true,
+  "format": "JavaScript",
+  "description": "This file defines a Calculator class for handling mathematical operations, including basic calculations, scientific functions, and memory operations. It also includes UI initialization for a web-based calculator interface.",
+  "external_files": [],
+  "external_methods": [],
+  "published": [
+    "Calculator"
+  ],
+  "classes": [
+    {
+      "name": "Calculator",
+      "description": "A class for performing mathematical operations, maintaining current and previous values, and handling memory operations."
+    }
+  ],
+  "methods": [
+    {
+      "name": "constructor",
+      "description": "Initializes the calculator state, setting current and previous values, operation, and memory."
+    },
+    {
+      "name": "appendNumber",
+      "description": "Appends a number to the current value, resetting the screen if necessary."
+    },
+    {
+      "name": "appendDecimal",
+      "description": "Appends a decimal point to the current value if not already included."
+    },
+    {
+      "name": "setOperation",
+      "description": "Sets the operation for the calculation based on the current value and prepares for the next input."
+    },
+    {
+      "name": "calculate",
+      "description": "Performs the calculation based on the current and previous values and sets the current value to the result."
+    },
+    {
+      "name": "clear",
+      "description": "Clears the current, previous values and the operation."
+    },
+    {
+      "name": "delete",
+      "description": "Deletes the last character of the current value."
+    },
+    {
+      "name": "getDisplayNumber",
+      "description": "Formats the number for display, including locale-specific formatting."
+    },
+    {
+      "name": "sin",
+      "description": "Returns the sine of a value, adjusting for angle mode."
+    },
+    {
+      "name": "cos",
+      "description": "Returns the cosine of a value, adjusting for angle mode."
+    },
+    {
+      "name": "tan",
+      "description": "Returns the tangent of a value, adjusting for angle mode."
+    },
+    {
+      "name": "log",
+      "description": "Calculates the base 10 logarithm of a value."
+    },
+    {
+      "name": "sqrt",
+      "description": "Calculates the square root of a value."
+    },
+    {
+      "name": "power",
+      "description": "Calculates a number raised to the power of another number."
+    },
+    {
+      "name": "memoryStore",
+      "description": "Stores the current value in memory."
+    },
+    {
+      "name": "memoryRecall",
+      "description": "Recalls the stored memory value to the current value."
+    },
+    {
+      "name": "memoryAdd",
+      "description": "Adds the current value to the stored memory value."
+    },
+    {
+      "name": "memorySubtract",
+      "description": "Subtracts the current value from the stored memory value."
+    },
+    {
+      "name": "memoryClear",
+      "description": "Clears the stored memory value."
+    },
+    {
+      "name": "pi",
+      "description": "Sets the current value to Pi."
+    },
+    {
+      "name": "e",
+      "description": "Sets the current value to e (Euler's number)."
+    },
+    {
+      "name": "setAngleMode",
+      "description": "Sets the angle mode for trigonometric calculations."
+    }
+  ],
+  "calls": [
+    "Math.sin",
+    "Math.cos",
+    "Math.tan",
+    "Math.log10",
+    "Math.sqrt",
+    "Math.pow"
+  ],
+  "search-terms": [
+    "Calculator",
+    "mathematical operations",
+    "UI initialization"
+  ],
+  "state": 2,
+  "file_id": 21,
+  "knowledge_revision": 47,
+  "git_revision": "3246730d0bfd3ec33aec2fe263fc58b7ae708a06",
+  "ctags": [],
+  "filename": "/home/kavia/workspace/code-maintenance-job-a41f3826-949e-4fe5-8f50-c1df5ef4adc8/Simple-Calculator-Web-app/calc.js",
+  "hash": "ecb522637b187cca29685b6b75715d88",
+  "format-version": 4,
+  "code-base-name": "b9748nd",
+  "revision_history": [
+    {
+      "47": "3246730d0bfd3ec33aec2fe263fc58b7ae708a06"
+    }
+  ]
+}

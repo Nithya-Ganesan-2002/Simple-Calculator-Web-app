@@ -1,0 +1,40 @@
+{
+  "is_source_file": true,
+  "format": "JavaScript",
+  "description": "This file sets up the initial DOM environment for a simple web calculator application, creating HTML elements for various buttons and inputs, and importing the Calculator class from another module.",
+  "external_files": [
+    "./calc.js"
+  ],
+  "external_methods": [],
+  "published": [
+    "Calculator"
+  ],
+  "classes": [],
+  "methods": [],
+  "calls": [
+    "document.createElement",
+    "document.getElementById",
+    "document.body.appendChild"
+  ],
+  "search-terms": [
+    "calculator",
+    "setup",
+    "buttons",
+    "calculator UI",
+    "DOM manipulation"
+  ],
+  "state": 2,
+  "file_id": 1,
+  "knowledge_revision": 25,
+  "git_revision": "3246730d0bfd3ec33aec2fe263fc58b7ae708a06",
+  "ctags": [],
+  "filename": "/home/kavia/workspace/code-maintenance-job-a41f3826-949e-4fe5-8f50-c1df5ef4adc8/Simple-Calculator-Web-app/jest.setup.js",
+  "hash": "2ec9f0f2038679ffcdb9dd9c5ec24c26",
+  "format-version": 4,
+  "code-base-name": "b9748nd",
+  "revision_history": [
+    {
+      "25": "3246730d0bfd3ec33aec2fe263fc58b7ae708a06"
+    }
+  ]
+}

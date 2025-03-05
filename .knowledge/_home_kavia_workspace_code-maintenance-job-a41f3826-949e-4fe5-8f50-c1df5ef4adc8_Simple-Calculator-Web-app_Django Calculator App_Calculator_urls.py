@@ -1,0 +1,39 @@
+{
+  "is_source_file": true,
+  "format": "Python",
+  "description": "This file contains the URL configuration for a Django web application that routes requests to different views and includes URLs from other Django applications.",
+  "external_files": [
+    "calc.urls"
+  ],
+  "external_methods": [
+    "django.contrib.admin.site.urls",
+    "django.urls.path",
+    "django.conf.urls.include"
+  ],
+  "published": [],
+  "classes": [],
+  "methods": [],
+  "calls": [
+    "include.calc.urls",
+    "admin.site.urls"
+  ],
+  "search-terms": [
+    "Django URLconf",
+    "urlpatterns",
+    "URL routing"
+  ],
+  "state": 2,
+  "file_id": 10,
+  "knowledge_revision": 36,
+  "git_revision": "46480b9226d47c075477919c6fed21d921ffaf1d",
+  "ctags": [],
+  "filename": "/home/kavia/workspace/code-maintenance-job-a41f3826-949e-4fe5-8f50-c1df5ef4adc8/Simple-Calculator-Web-app/Django Calculator App/Calculator/urls.py",
+  "hash": "a98fc39d5209a09bede0414f4d327f26",
+  "format-version": 4,
+  "code-base-name": "b9748nd",
+  "revision_history": [
+    {
+      "36": "46480b9226d47c075477919c6fed21d921ffaf1d"
+    }
+  ]
+}

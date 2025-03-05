@@ -1,0 +1,44 @@
+{
+  "is_source_file": true,
+  "format": "CSS",
+  "description": "Styles for a simple calculator web application, including layouts for buttons, text areas, and selectors.",
+  "external_files": [],
+  "external_methods": [],
+  "published": [],
+  "classes": [
+    {
+      "name": "scientific-functions",
+      "description": "Styles for scientific function buttons in the calculator."
+    },
+    {
+      "name": "memory-functions",
+      "description": "Styles for memory function buttons in the calculator."
+    },
+    {
+      "name": "angle-selector",
+      "description": "Styles for the angle selector section in the calculator."
+    }
+  ],
+  "methods": [],
+  "calls": [],
+  "search-terms": [
+    "calculator",
+    "CSS",
+    "styles",
+    "web app",
+    "button styles"
+  ],
+  "state": 2,
+  "file_id": 3,
+  "knowledge_revision": 26,
+  "git_revision": "0f682a44287f8782a84f0a5176e1338ef4ab883d",
+  "filename": "/home/kavia/workspace/code-maintenance-job-a41f3826-949e-4fe5-8f50-c1df5ef4adc8/Simple-Calculator-Web-app/calc.css",
+  "hash": "e9e511e09b3739c9ad7f207b7a3a02dc",
+  "format-version": 4,
+  "code-base-name": "b9748nd",
+  "revision_history": [
+    {
+      "26": "0f682a44287f8782a84f0a5176e1338ef4ab883d"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "is_source_file": true,
+  "format": "JavaScript",
+  "description": "This file implements the frontend logic for a simple calculator web application, handling user interactions and updating the display of results.",
+  "external_files": [],
+  "external_methods": [],
+  "published": [],
+  "classes": [],
+  "methods": [
+    {
+      "name": "addEventListener",
+      "description": "Attaches an event handler to the specified element.",
+      "parameters": [
+        "event",
+        "function"
+      ],
+      "returns": "void"
+    }
+  ],
+  "calls": [
+    "document.querySelector",
+    "eval"
+  ],
+  "search-terms": [
+    "calculator",
+    "JavaScript",
+    "frontend",
+    "event handling",
+    "simple calculator"
+  ],
+  "state": 2,
+  "file_id": 7,
+  "knowledge_revision": 32,
+  "git_revision": "ef99be53ab300b7fcbc257fa77d4fa9a5e5f2349",
+  "ctags": [],
+  "filename": "/home/kavia/workspace/code-maintenance-job-a41f3826-949e-4fe5-8f50-c1df5ef4adc8/Simple-Calculator-Web-app/Django Calculator App/static/js/calc.js",
+  "hash": "f00fdb577b36674f6fc75d8cb687d177",
+  "format-version": 4,
+  "code-base-name": "b9748nd",
+  "revision_history": [
+    {
+      "32": "ef99be53ab300b7fcbc257fa77d4fa9a5e5f2349"
+    }
+  ]
+}
