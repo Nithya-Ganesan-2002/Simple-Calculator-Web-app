@@ -14,4 +14,183 @@ textarea{
  button{
  	height: 40px;
  	width: 40px;
- }
+ }/* Modern Calculator Styling */
+:root {
+  /* Light theme variables */
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --button-bg: #ffffff;
+  --button-text: #333;
+  --operator-bg: #f0f0f0;
+  --operator-text: #1a73e8;
+  --equals-bg: #1a73e8;
+  --equals-text: #ffffff;
+  --display-bg: #ffffff;
+  --display-text: #333;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1f1f1f;
+    --text-color: #ffffff;
+    --button-bg: #2d2d2d;
+    --button-text: #ffffff;
+    --operator-bg: #3d3d3d;
+    --operator-text: #4285f4;
+    --equals-bg: #4285f4;
+    --equals-text: #ffffff;
+    --display-bg: #2d2d2d;
+    --display-text: #ffffff;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* Base styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background-color: var(--bg-color);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  max-width: 100%;
+  width: 320px;
+  transition: all 0.3s ease;
+}
+
+/* Display styling */
+.display {
+  background-color: var(--display-bg);
+  color: var(--display-text);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  text-align: right;
+  font-size: 2rem;
+  min-height: 60px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid layout for buttons */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Button styling */
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow);
+}
+
+button:hover {
+  box-shadow: var(--hover-shadow);
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: var(--shadow);
+}
+
+/* Operator buttons */
+button.operator {
+  background-color: var(--operator-bg);
+  color: var(--operator-text);
+  font-weight: 600;
+}
+
+/* Equals button */
+button.equals {
+  background-color: var(--equals-bg);
+  color: var(--equals-text);
+  grid-column: span 2;
+}
+
+/* Clear and All Clear buttons */
+button.clear,
+button.all-clear {
+  background-color: var(--operator-bg);
+  color: #dc3545;
+  font-weight: 600;
+}
+
+/* Memory operation buttons */
+button.memory {
+  background-color: var(--operator-bg);
+  color: var(--operator-text);
+  font-size: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 360px) {
+  .calculator {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .buttons {
+    gap: 8px;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+
+  .display {
+    padding: 15px;
+    font-size: 1.75rem;
+  }
+}
+
+/* Animations */
+@keyframes buttonPress {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+button:active {
+  animation: buttonPress 0.15s ease;
+}
+
+/* Accessibility */
+button:focus {
+  outline: 2px solid var(--operator-text);
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+  button {
+    border: 2px solid currentColor;
+  }
+  
+  .display {
+    border: 2px solid currentColor;
+  }
+}
